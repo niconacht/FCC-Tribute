@@ -5,41 +5,61 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Tribute Page</title>
-  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+  <link href= "https://fonts.googleapis.com/css?family=Oswald:300,400,700|Quicksand:300,400&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./styles/styles.css" />
 </head>
 <body id="main">
+ 
   <h1 id="title">
-      Every Mom
+      Dedicated to every Mom
   </h1>
-  <div id="img-div">
-      <img id="image"src=" " alt=""> <!--be responsive relative to width of parent element, 
+
+
+  <figure id="img-div">
+      <img id="image" 
+      src="https://images.unsplash.com/photo-1445633883498-7f9922d37a3f?ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80" 
+      alt="Mother with daughter on the street making fun"> <!--be responsive relative to width of parent element, 
     not exceed original size & centered in parent element-->
-      <div id="img-caption">What some Moms like to do in their spare time</div>
-  </div>
+    <div class="credit">Sai de Silva/unsplash.com</div>
+      <figcaption id="img-caption"> Mom and daughter kidding around.
+      </figcaption>
+  </figure>
   <div id="tribute-info">
-      <h3>Life of a Mom</h3>
+      <h3>A day in a Mom's life</h3>
       <p>Most Moms are pretty busy and they don't have much free time. Some Moms start
-          learning to code to be a good example to their daughters.
+          learning to code to be a good example to their daughters. There is even a whole 
+           
+          <a id="tribute-link" href="https://www.cbs.com/shows/mom/" target="_blank">
+            TV series</a> dedicated to a Mum that you can watch.
       </p>
-      <h4>A day in a Mom's life</h4>
+      
       <div class="cv">
-          <div class="time"></div>
-          <div class="station"></div>
-          <div class="time"></div>
-          <div class="station"></div>
-          <div class="time"></div>
-          <div class="station"></div>
-          <div class="time"></div>
-          <div class="station"></div>
-          <div class="time"></div>
-          <div class="station"></div>
+        <div class="timeframe">
+          <div class="time">06:00 am</div>
+          <div class="station">Get kids ready for school.</div>
+        </div>
+        <div class="timeframe">
+          <div class="time">07:30 am</div>
+          <div class="station">Bring kids to school and go to work.</div>
+        </div>
+        <div class="timeframe">
+          <div class="time">03:00 pm</div>
+          <div class="station">Pick up kids from school.</div>
+        </div>
+        <div class="timeframe">
+          <div class="time">04:00 pm</div>
+          <div class="station">Bring kids to some random course.</div>
+        </div> 
+        <div class="timeframe">
+          <div class="time">07:00 pm</div>
+          <div class="station">Bring kids to bed.</div>
+        </div>
       </div>
-      <p>here is even a whole 
-            TV series dedicated to a Mum</a></p>
-      There is even a whole 
-      <a id="tribute-link" href="https://www.cbs.com/shows/mom/" target="_blank">TV series</a> dedicated to a Mum that you can watch.</a>
-      <quote>Everything has already been said about Moms</quote>
+      
+      <div class="quote">
+        <div class= "citation">"Everything has already been said about Moms"<div>
+        <div class= "author">Anonymous</small>
+    </div>
     </div>
   
 </body>
